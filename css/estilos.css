@@ -1,0 +1,145 @@
+/*Geral*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/*Seletores*/
+body{
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #e6e6e6;
+    min-width: 1500px;
+}
+
+/*Logo*/
+h1{
+    color: #4e4e4e;
+    font-size: 2.5em;
+}
+
+/*Textos*/
+/*Título Menu e Recentes*/
+h3{
+    color: #4e4e4e;
+    background: #ccc;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.titulo-postagem{
+    text-align: center;
+    color: #f7b600;
+    padding: 5px;
+}
+
+.data-postagem{
+    font-family: 'courier new';
+    color: rgb(186, 183, 183);
+    text-align: center;
+    padding-bottom: 5px;
+    font-size: 0.8em;
+    border-bottom: #f4f4f4;
+}
+
+/*Links gerais*/
+a{
+    text-decoration: none;
+    color: #f7b600;
+    padding: 0px 10px;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+/*Cabeçalho*/
+#topo{
+    background-color: #f7b600;
+    text-align: center;
+    padding: 15px;
+}
+
+#logo{
+    padding: 10px;
+}
+
+/*Conteudos gerais*/
+#conteudo{
+    width: 70%;
+    margin: 0px 2.5%;
+    float: right;
+}
+
+/*Postagens*/
+#area-postagens{
+    background: white;
+    margin: 0px auto;
+    float: left;
+}
+
+.postagens{
+    padding: 20px;
+    margin-top: 10px;
+    width: 660px;
+}
+
+.imagem-postagem{
+    width: 620px;
+}
+
+/*Conteúdo Lateral*/
+.lateral{
+    background: white;
+    width: 240px;
+    padding: 10px;
+}
+
+/*Recentes*/
+#recentes{
+    border: 5px outset;
+    margin-top: 1%;
+    float: right;
+}
+
+.postagem-recentes{
+    font-size: 0.8em;
+    padding: 5px;
+}
+
+/*Menu*/
+#menu{
+    border: 5px outset;
+    width: 200px;
+    margin-left: 2.5%;
+    margin-top: 1%;
+}
+
+#menu a{
+    display: block;
+    background: #f7b600 url(../imagens/menu.png) no-repeat left bottom;
+    width: 180px;
+    height: 40px;
+    color: white;
+    text-indent: 20px;
+    line-height: 40px;
+}
+
+#menu a:hover{
+    text-decoration: none;
+    background-position: right bottom;
+    background-color: #f99200;
+}
+
+#pagina-atual a{
+    text-decoration: none;
+    background-position: right bottom;
+    background-color: #f99200;
+}
+
+/*Rodapé*/
+#fim{
+    clear: both;
+    text-align: center;
+    padding: 15px;
+}
